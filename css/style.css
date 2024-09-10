@@ -58,9 +58,6 @@
     color: white;
 }
 
-
-
-
 /*NAVBAR*/
 .navbar__box{
     height: 90px;
@@ -99,7 +96,6 @@
     justify-content: center;
 }
 
-
 /*HERO CONTENT*/
 .hero__box{
     width: 100%;
@@ -130,6 +126,52 @@
     color: #757575;
 }
 
+
+
+/*ABOUT CONTENT*/
+.about__container{
+    height: 600px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.about__box{
+    display: flex;
+    flex-direction: row;
+}
+
+.about__info h4{
+    color: #f27a1f;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.about__info h3{
+    font-size: 50px;
+    color: #3f3e7a;
+    font-weight: 700;
+}
+
+.about__info p{
+    font-size: 15px;
+    color: #757575;
+    text-align: justify;
+}
+
+
+
+.about__info__box ul{
+    display: flex;
+}
+
+.about__info__box ul li{
+    list-style: none;
+}
+
+
 /*CONTACT CONTENT*/
 .contact__box{
     height: 400px;
@@ -144,7 +186,6 @@
     font-size: 50px;
     font-weight: 800;
 }
-
 
 
 /*FOOTER CONTENT*/
